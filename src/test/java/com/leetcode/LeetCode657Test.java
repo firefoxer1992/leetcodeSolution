@@ -1,5 +1,6 @@
 package com.leetcode; 
 
+import com.leetcode.string.LeetCode657;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.Before; 
@@ -14,7 +15,7 @@ import org.junit.After;
 */ 
 public class LeetCode657Test { 
 
-    private  LeetCode657 leetCode657=new LeetCode657();
+    private LeetCode657 leetCode657=new LeetCode657();
 @Before
 public void before() throws Exception { 
 } 

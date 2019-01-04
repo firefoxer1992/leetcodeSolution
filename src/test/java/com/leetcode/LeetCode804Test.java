@@ -1,5 +1,6 @@
 package com.leetcode; 
 
+import com.leetcode.hashset.LeetCode804;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.Before; 
@@ -13,7 +14,7 @@ import org.junit.After;
 * @version 1.0 
 */ 
 public class LeetCode804Test { 
-    private   LeetCode804 leetCode804=new LeetCode804();
+    private LeetCode804 leetCode804=new LeetCode804();
 @Before
 public void before() throws Exception { 
 } 
