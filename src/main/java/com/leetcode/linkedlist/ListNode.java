@@ -14,4 +14,6 @@ package com.leetcode.linkedlist;
           val=x;
           this.next=next;
       }
+
+
  }
