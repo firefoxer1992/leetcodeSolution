@@ -19,9 +19,13 @@ public class LeetCode206i {
         ListNode prev = null;
         ListNode curr = head;
         while (curr != null) {
+            //先记住下一个节点
             ListNode nextTemp = curr.next;
+            //将当前节点的指针，指向"上一个节点"，形成反转
             curr.next = prev;
+            //存储当前节点，以便作为迭代后的"上一个节点"。
             prev = curr;
+            //向下一个节点迭代
             curr = nextTemp;
         }
         return prev;
