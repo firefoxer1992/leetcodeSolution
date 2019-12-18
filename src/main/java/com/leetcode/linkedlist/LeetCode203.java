@@ -16,8 +16,10 @@ public class LeetCode203 {
             ListNode curr = head, prev = fakeHead;
             while (curr != null) {
                 if (curr.val == val) {
+                    //如果找到要删除的值，prev就指向当前节点curr的下一个节点。
                     prev.next = curr.next;
                 } else {
+                    //否则就将prev向前迭代，继续充当迭代后的curr的上一个节点。
                     prev = prev.next;
                 }
                 curr = curr.next;
