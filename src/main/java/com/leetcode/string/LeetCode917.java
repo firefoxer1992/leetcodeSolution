@@ -23,7 +23,7 @@ package com.leetcode.string;
  * Output: "Qedo1ct-eeLg=ntse-T!"
  */
 public class LeetCode917 {
-    public String reverseOnlyLetters(String S) {
+    public static String reverseOnlyLetters(String S) {
         if (S == null) {
             return null;
         }
