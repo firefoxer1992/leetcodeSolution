@@ -33,8 +33,8 @@ public class LeetCode917 {
         for (int i = 0, j = S.length() - 1; i<=j; ) {
             char leftChar = chars[i];
             char rightChar = chars[j];
-            boolean isLetterLeft = isLetter(leftChar);
-            boolean isLetterRight = isLetter(rightChar);
+            boolean isLetterLeft = Character.isLetter(leftChar);
+            boolean isLetterRight = Character.isLetter(rightChar);
             if (isLetterLeft && isLetterRight) {
                 //如果两个都是字母，就进行交换。
                 temp = chars[i];
@@ -53,14 +53,5 @@ public class LeetCode917 {
             }
         }
         return String.valueOf(chars);
-    }
-
-    /**
-     * 判断是否字母
-     * @param c
-     * @return
-     */
-    public static boolean isLetter(char c) {
-        return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
     }
 }
