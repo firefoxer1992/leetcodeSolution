@@ -19,7 +19,7 @@ package com.leetcode.tree;
  *     }
  * }
  */
-class Solution {
+class LeetCode226 {
 	public TreeNode invertTree(TreeNode root) {
 		if(root==null) {
 			return null;
