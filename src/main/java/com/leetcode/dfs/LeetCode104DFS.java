@@ -1,4 +1,4 @@
-package com.leetcode.tree;
+package com.leetcode.dfs;
 
 import java.util.LinkedList;
 import java.util.Queue;
